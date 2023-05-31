@@ -1,1 +1,0 @@
-java -jar "C:\Users\Abd El Rahman Ezzat\source\repos\ROV_Application\dist\ROV_Application.jar"

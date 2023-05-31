@@ -302,7 +302,7 @@ Figure3.3.1-7 Serial Port Monitoring.
 
 **You can run the application by :**
 
-- Double click on the "ROV_Application.jar" file.
+- Double click on the "[ROV_Application.jar](dist/ROV_Application.jar)" file.
 **OR**
 - Run the following command on the command prompt :
 `> java -jar ROV_Application.jar`
