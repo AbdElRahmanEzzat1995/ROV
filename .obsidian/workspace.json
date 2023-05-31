@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -148,17 +148,23 @@
   },
   "active": "9ab933047fda55d5",
   "lastOpenFiles": [
-    "README.assets/Pasted image 20230531160646.png",
-    "README.assets/Pasted image 20230531160532.png",
-    "README.assets/Pasted image 20230531160155.png",
-    "README.assets/Pasted image 20230531160123.png",
-    "README.assets/Pasted image 20230531155947.png",
-    "README.assets/Pasted image 20230531155643.png",
-    "README.assets/Pasted image 20230531155357.png",
-    "README.assets/Pasted image 20230531155032.png",
-    "README.assets/Pasted image 20230531154941.png",
-    "README.assets/Pasted image 20230531131208.png",
-    "README.assets/Pasted image 20230531131111.png",
+    "res/ROV.png",
+    "res/Background1.jpg",
+    "res/Background.jpg",
+    "res",
+    "dist/res/ROV.png",
+    "dist/res/Background1.jpg",
+    "dist/res/Background.jpg",
+    "dist/res",
+    "src/ROV_Application/Usb.png",
+    "src/ROV_Application/Up.png",
+    "src/ROV_Application/Torch1.png",
+    "src/ROV_Application/Torch.png",
+    "src/ROV_Application/Thumbs.db",
+    "src/ROV_Application/Stop.png",
+    "src/ROV_Application/resources/Thumbs.db",
+    "src/ROV_Application/resources",
+    "src/ROV_Application/New folder",
     "README.md",
     "README.assets/Pasted.md",
     "READMe.assets/Pasted.md"

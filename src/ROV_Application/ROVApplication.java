@@ -71,8 +71,8 @@ public class ROVApplication extends javax.swing.JFrame {
     }
 
     public void FrameDesign() throws IOException {
-        setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("packages/ROV_Gallery/Sources/Background1.jpg")))));
-        setIconImage(ImageIO.read(new File("packages/ROV_Gallery/Sources/ROV.png")));
+        setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("res/Background1.jpg")))));
+        setIconImage(ImageIO.read(new File("res/ROV.png")));
         setTitle("Remotely Operated Vehicle Application");
         add(jPanel1);
         add(Save);
@@ -220,6 +220,7 @@ public class ROVApplication extends javax.swing.JFrame {
         Neutral = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setIconImages(null);
         setType(java.awt.Window.Type.POPUP);
 
         Down.setBackground(java.awt.SystemColor.activeCaption);

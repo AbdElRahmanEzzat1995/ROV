@@ -291,6 +291,23 @@ Figure3.3.1-7 Serial Port Monitoring.
 
 
 
+## Build
+
+- Make sure to have the "**rxtxSerial.dll**" file on the JRE path : `C:\Program Files\Java\jre1.8.0_121\bin`
+- Make sure the "**res**" folder is exists with the "**ROV_Application.jar**".
+- You can download the "**rxtxSerial.dll**" file from here [rxtxSerial.dll](https://github.com/jajberni/sts-java/raw/master/rxtxSerial.dll.x64)
+
+
+## Run
+
+**You can run the application by :**
+
+- Double click on the "ROV_Application.jar" file.
+**OR**
+- Run the following command on the command prompt :
+`> java -jar ROV_Application.jar`
+
+
 ## References :
 
 - [Wikipedia ROV](https://en.wikipedia.org/wiki/Remotely_operated_underwater_vehicle)
