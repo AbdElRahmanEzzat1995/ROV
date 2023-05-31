@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "README.assets"
+  "attachmentFolderPath": "README.assets",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
