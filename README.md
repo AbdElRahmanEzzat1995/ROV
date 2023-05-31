@@ -78,6 +78,7 @@ Figure2.4-2 Initial frame shape
 
 - Establishing an electronic structure by integrating all parts, components, and plants that consume voltage from the source of power.
 - For more precision, take an overview of the most effective and influential block in the vehicle, known as the control box.
+
 ![](README.assets/Pasted%20image%2020230531133431.png)
 
 Figure2.5 Control box before and after insulation
