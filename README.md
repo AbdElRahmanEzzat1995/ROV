@@ -1,7 +1,7 @@
 # ROV
 Remotely Operated Vehicle (ROV)
 
-![[Attachments/Pasted image 20230531130031.png]]
+![[Attachments/20230531130031.png]]
 Figure1
 
 ## 1. Introduction :
