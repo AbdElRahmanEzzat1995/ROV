@@ -93,26 +93,31 @@ Figure2.5.1
 #### 2.5.2 H-Bridge Board
 
 - It is an electronic circuit that is designed to provide us with a technique to change the motor's direction; this can be reached by switches.
+
 ![](README.assets/Pasted%20image%2020230531130850.png)
 
 Figure2.5.2-1 H-bridge mechanism
 
 - These switches can be electronic as transistors or electromechanical as relays, and each one of them has its own datasheet and properties.
+
 ![](README.assets/Pasted%20image%2020230531130924.png)
 
 Figure2.5.2-2 Transistor vs Relay
 
 - Our desire is to use electromechanical relays in the circuit design that have much more robustness over high voltages. Also,  its famous general rule is to separate any two devices or components, each of which operates at a different voltage level.
+
 ![](README.assets/Pasted%20image%2020230531130945.png)
 
 Figure2.5.2-3 PCB initial circuit design
 
 - The circuit has 9 relays; each relay's function is to control the direction of only one motor, and the last relay is for enabling or disabling lights.
+
 ![](README.assets/Pasted%20image%2020230531131111.png)
 
 Figure2.5.2-4 PCB initial circuit design using Proteus
 
 - On the margins of the PCB, there are a number of **rosettes**’ to handle touch wires to the whole electronic hardware subsystem components.
+
 ![](README.assets/Pasted%20image%2020230531131208.png)
 
 Figure2.5.2-5 H-bridge connection
@@ -129,26 +134,31 @@ Figure2.5.3
 #### 2.5.4 Cables & Wires
 
 - Our vehicle has a wired connection mechanism that provides a limit of distance between it and the operator at the surface.
+
 ![](README.assets/Pasted%20image%2020230531134744.png)
 
 Figure2.5.4-1
 
 - Due to the several tasks that are managing the vehicle's operation, there are three links connected from the operator to the vehicle in a simplex connection mode that is a one-way flow of signal.
+
 ![](README.assets/Pasted%20image%2020230531134910.png)
 
 Figure2.5.4-2
 
 1. **Ethernet "UTP" cable**, whose rule is to carry the digital order signals from the operator's computer "laptop" to the microcontroller to drive the vehicle through its motor's direction. (i.e., the UTP cable we use is from category 5, which is suitable for data rates up to 100 Mbps.)
+
 ![](README.assets/Pasted%20image%2020230531135039.png)
 
 Figure2.5.4-3
 
 2. **Electrical "copper" wire**, whose rule is to carry the charges that are supplied from the integrated block of batteries externally to provide the ROV with power.
+
 ![](README.assets/Pasted%20image%2020230531135118.png)
 
 Figure2.5.4-4
 
 3.  **Universal Serial Bus ("USB") cable**, whose rule is to take control over the connection between the vision (monitoring) system inside the vehicle and the operator by carrying a video stream and images from the fixed camera directly to the operator's screen.
+
 ![](README.assets/Pasted%20image%2020230531135128.png)
 
 Figure2.5.4-5
@@ -156,11 +166,13 @@ Figure2.5.4-5
 #### 2.5.5 Motors and Propulsion System
 
 - The best choice for the thrusters of a designed ROV is **brushless DC motors** to achieve the minimum dimension for the same power rating.
+
 ![](README.assets/Pasted%20image%2020230531135424.png)
 
 Figure2.5.5-1
 
 - We have used 4 DC motors from the category M100 brushless, which are used in printing machines.
+
 ![](README.assets/Pasted%20image%2020230531135435.png)
 
 Figure2.5.5-2
@@ -168,16 +180,19 @@ Figure2.5.5-2
 #### 2.6 Monitoring (Vision) System
 
 - We are using a Vega WebCam, which has moderate quality for streaming videos and capturing images.
+
 ![](README.assets/Pasted%20image%2020230531135726.png)
 
 Figure2.6-1
 
 - Also, there is an effective component in the monitoring system that is the **LED**, or **lights**, which helps the camera capture what is going on under conditions such as darkness and non-clear water.
+
 ![](README.assets/Pasted%20image%2020230531135735.png)
 
 Figure2.6-2
 
 - We use epoxy to cover the start of the camera cable as shown in Figure2.6-3.
+
 ![](README.assets/Pasted%20image%2020230531140335.png)
 
 Figure2.6-3
