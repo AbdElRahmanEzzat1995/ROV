@@ -127,6 +127,7 @@ Figure2.5.2-5 H-bridge connection
 - The eccentric thing about the formation of the structure is that the source of power that feeds all of the electronic components with charges is fixed and isolated internally inside the control box.
 - We have used **GTL lithium** batteries, which can be charged a number of times without wearing
 - Each battery supplies from (3.7 ˷ 4) voltages, and so we connect or merge a number of 6 batteries in a series connection to supply the whole circuit with an approximation of 24 voltages. (i.e Every motor operates in a 24 voltage).
+
 ![](README.assets/Pasted%20image%2020230531131233.png)
 
 Figure2.5.3
