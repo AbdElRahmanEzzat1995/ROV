@@ -201,7 +201,94 @@ Figure2.6-3
 
 ## 3. Software Architecture
 
+#### 3.1 Fact of Architecture
+
+- The system software onomatopoeia may imply a logically programmed system with an appropriate programming language, although it also includes a physical hardware implementation to complete the system integration.
+
 ![](README.assets/Pasted%20image%2020230531153421.png)
+
+Figure3.1 software architecture block diagram
+
+#### 3.2 Control System
+
+- The main concept of control system structure is that it receives an order in a signal or wave form, processes it, and then gives an output in a certain format and function.
+
+![](README.assets/Pasted%20image%2020230531155032.png)
+
+Figure3.2-1
+
+![](README.assets/Pasted%20image%2020230531154941.png)
+
+Figure3.2-2 An example of open loop control system
+
+
+#### 3.3 Software Programming
+
+#### 3.3.1.  Embedded Code
+
+- Lately we informed that the microcontroller board that is used as the vehicle brain is an **Arduino Uno** board.
+
+![](README.assets/Pasted%20image%2020230531130835.png)
+
+Figure3.3.1-1 
+
+- Simply by using an AVR microcontroller for the Arduino Uno board, we embed or burn an efficient, organized program for the vehicle movement conditions, operations, and interrupts, which receive multiple instructions from crusty over a wired medium.
+
+![](README.assets/Pasted%20image%2020230531155357.png)
+
+Figure 3.3.1-2 Screenshot from the embedded code
+
+- The desired specific conditions and tasks are determined by sending the parameter term, which will determine the order to be executed over an external **_Ethernet module_** connected to the Arduino.
+
+- (Note that an **_Ethernet shield_** can be used instead of the module; that can differ in the number of bins connected and the cost.)
+
+![](README.assets/Pasted%20image%2020230531155643.png)
+
+Figure3.3.1-3 Ethernet Module
+
+
+#### 3.3.2.  Desktop Application
+
+- In order to control the vehicle crossing landfall, we have developed a reliable desktop application program to be able to give orders for movement directions, floating, submerging, and stabilizing at a desired level.
+
+- Also to be considered as a user interface for receiving an underwater video stream are statistics from sensors.
+
+![](README.assets/Pasted%20image%2020230531155947.png)
+
+Figure3.3.1-4 Desktop application user interface
+
+- We have used the Java programming language because of its high efficiency and the huge number of built-in libraries and functions that offer more facilitation in analysis and implementation.
+
+- For driving the vehicle, there are two methods for controlling its movement and sending instructions:
+
+![](README.assets/Pasted%20image%2020230531160155.png)
+
+Figure3.3.1-5 Joysticks vs Keyboard
+
+- The connection between Java and Arduino requires some specific standard steps to maintain it :
+
+  o You can run Java SE Embedded or Java ME on a Raspberry Pi, but the Arduino is a bit too constrained to run Java directly. However, with the help of serial port communication software, you can communicate with and control an Arduino from Java running on another computer.
+  
+  o Although the code to do so has been published on the Arduino site, it's still a little tricky. In this blog, I'll go over how to make this work on different host operating systems as well as write an Arduino sketch to do something useful.
+  
+  o Locate and download the RXTX library. When you unzip the downloaded file, you'll notice directories for various operating systems (OSs). Make note of which ones you're using, as you'll need those specific files.
+  
+  o Create a new Java project in the IDE of your choice, and be sure to copy the following RXTX files (from the download in the first step) into the project directory.
+  
+  o For Windows: rxtxSeial.dll (from the Windows subdirectory).
+  
+  o Modify the project's settings to include RXTXcomm.jar on the class path and the path to the native library on the command line via the "**-Djava.library.path**" parameter.
+
+![](README.assets/Pasted%20image%2020230531160532.png)
+
+Figure3.3.1-6 Screenshot of the interface between java & Arduino.
+
+- Through the **_serial port monitor,_** we can send the desired instructions for the desired conditions to be executed.
+
+![](README.assets/Pasted%20image%2020230531160646.png)
+
+Figure3.3.1-7 Serial Port Monitoring.
+
 
 
 ## References :
