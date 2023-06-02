@@ -300,7 +300,16 @@ Figure3.3.1-7 Serial Port Monitoring.
 
 ## Run
 
-**You can run the application by :**
+**Before you run the desktop ROV application, you must burn the hardware code to the Arduino board using the USB serial port.**
+
+- You have two program code scenarios to communicate with the ROV through the ROV desktop application, either by USB or Ethernet cable.
+
+1. [ROV Control using Serial (USB)](ROV_Control/Serial.ino)
+
+2. [ROV Control using Ethernet](ROV_Control/Ethernet.ino)
+
+
+**You can run the desktop application by :**
 
 - Double click on the "[ROV_Application.jar](dist/ROV_Application.jar)" file.
 **OR**
